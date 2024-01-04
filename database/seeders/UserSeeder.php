@@ -21,8 +21,8 @@ class UserSeeder extends Seeder
         $factoryUsers = [
             [
                 'name' => 'super-admin',
-                'email' => 'admin@swift-sms.net',
-                'senderId' => 'ADMINISTRATOR',
+                'email' => 'admin@econnect.com',
+                'senderId' => 'ADMIN',
                 'password' => '$2y$10$dD8yarAAR8v75qt7ekre1utGJE7dA0PS2Ge5FLX9OkPxVBzMIBAcC', // test1234
                 'role' => 'admin'
                 
