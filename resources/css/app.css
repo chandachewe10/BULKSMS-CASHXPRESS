@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+.btn-primary {
+  @apply bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded;
+}
+
+.btn-secondary {
+  @apply bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded;
+}
+
+.btn-success {
+  @apply bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded;
+}
+
+.btn-info {
+  @apply bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded;
+}
+
